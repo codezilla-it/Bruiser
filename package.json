@@ -1,0 +1,14 @@
+{
+  "name": "bruiser",
+  "version": "1.0.0",
+  "description": "bruiser test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codezilla-it/bruiser.git"
+  },
+  "dependencies": {
+    "globals": "^8.2.0",
+    "run-sequence": "^1.1.4"
+  },
+  "devDependencies": {}
+}

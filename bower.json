@@ -1,0 +1,72 @@
+{
+  "name": "doomjs",
+  "version": "1.0.0",
+  "authors": [
+    "Fabio Cencetti"
+  ],
+  "description": "doomjs test.env",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "doom"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.doomjs.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "*.map",
+    "*.json",
+    "*.md",
+    "*.editorconfig",
+    "*.yml",
+    "bower_components",
+    "media",
+    "test",
+    "tests",
+    "data",
+    "config",
+    "bin",
+    "temp_img",
+    "vendor"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.5",
+    "holderjs": "~2.8.2",
+    "sass-mediaqueries": "~1.5.1",
+    "jeet": "~6.1.2",
+    "neat": "~1.7.2"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "jquery": "~1.11.3"
+  },
+  "overrides": {},
+  "install": {
+    "base": "static/common/",
+    "path": "vendor",
+    "sources": {
+      "jquery": [
+        "bower_components/jquery/dist/jquery.min.js"
+      ],
+      "font-awesome": [
+        "bower_components/font-awesome/css/font-awesome.css",
+        "bower_components/font-awesome/fonts/*.**"
+      ],
+      "modernizr": [
+        "bower_components/modernizr/modernizr.js"
+      ]
+    },
+    "ignore": [
+      "requirejs",
+      "gsap",
+      "bourbon",
+      "neat",
+      "jeet",
+      "sass-mediaqueries"
+    ]
+  }
+}
