@@ -1,0 +1,50 @@
+//------------------------------------
+//    $Base
+//------------------------------------
+
+// Force Outlook to provide a "view in browser" menu link.
+
+body {
+  width: 100% !important;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00adef;
+  text-decoration: none;
+}
+
+img {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  -ms-interpolation-mode: bicubic;
+}
+
+a img {
+  border: none;
+}
+
+p {
+  margin: 0px 0px !important;
+}
+
+table {
+  border-collapse: collapse;
+  mso-table-lspace: -1pt;
+  mso-table-rspace: -1pt;
+  margin: 0 auto;
+
+  // fix yahoo mail bug
+  th {
+    border-collapse: collapse;
+    line-height: 1.2;
+  }
+
+  td {
+    border-collapse: collapse;
+  }
+}

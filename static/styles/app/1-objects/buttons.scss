@@ -1,0 +1,38 @@
+.btn {
+  width: 250px;
+  height: 45px;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+
+  &.btn--blue {
+    background: #405c9a;
+  }
+
+  &.btn--cyan {
+    background: #00adef;
+  }
+
+  &.btn--green {
+    background: #28ba0f;
+  }
+
+  &.btn--orange {
+    background: #fc7b1e;
+  }
+
+  &.btn--square {
+    border-radius: 0px !important;
+  }
+}
+
+.btn__link {
+  font: 18px / 18px $font-stack;
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 12px 10px;
+}

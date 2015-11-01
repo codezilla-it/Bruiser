@@ -1,0 +1,10 @@
+// Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design.
+
+.ExternalClass {
+  width: 100%;
+  line-height: 100%;
+
+  p, span, font, td, div {
+    line-height: 100%;
+  }
+}

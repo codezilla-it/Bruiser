@@ -1,0 +1,34 @@
+//------------------------------------
+//    $Blocks
+//------------------------------------
+
+.blocks-1 {
+  .product__btn {
+    width: 250px;
+    height: 38px;
+    font: 16px / 18px $font-stack;
+  }
+
+  .btn__link {
+    padding: 12px 10px;
+    font: 16px / 18px $font-stack;
+  }
+
+  .product__title,
+  .product__text,
+  .product__pricing {
+    text-align: center !important;
+  }
+}
+
+.blocks-2 .product__btn {
+  width: 188px;
+}
+
+.blocks-3 .product__btn {
+  width: 135px;
+}
+
+.blocks-4 .product__btn {
+  width: 125px;
+}

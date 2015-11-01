@@ -1,0 +1,18 @@
+// Force Hotmail to display emails at full width
+// Force Hotmail to display normal line spacing.
+
+#backgroundTable {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  line-height: 100% !important;
+}
+
+.image_fix {
+  display: block;
+}
+
+.mobilelink a {
+  text-decoration: none;
+  color: #9da2a8;
+}

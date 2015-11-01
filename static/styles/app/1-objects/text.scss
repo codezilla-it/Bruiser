@@ -1,0 +1,78 @@
+//------------------------------------
+//  $Text
+//------------------------------------
+
+
+//  $Text-position
+//------------------------------------
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+//  $Text-decoration
+//------------------------------------
+
+.text-decoration--underline {
+  text-decoration: underline !important;
+}
+
+.text-underline-dashed {
+  border-bottom: 1px dashed #dddddd;
+}
+
+//  $Text-weight
+//------------------------------------
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-bold {
+  font-weight: bold !important;
+}
+
+//  $Text-size
+//------------------------------------
+
+.text-size--xs {
+  font-size: 9px !important;
+}
+
+//  $Text-color
+//------------------------------------
+
+.text-color--light-gray {
+  color: #8d9298 !important;
+}
+
+.text-color--gray {
+  color: #8b939b !important;
+}
+
+.text-color--orange {
+  color: #fc7b1e !important;
+}
+
+.text-color-orange {
+  color: #fc531e !important;
+}
+
+.text-color-gray {
+  color: #9da2a8 !important;
+}
+
+//  $Text-utils
+//------------------------------------
+
+.no-line-height {
+  line-height: 0 !important;
+}

@@ -1,0 +1,19 @@
+//------------------------------------
+//    $Postfooter
+//------------------------------------
+
+.postfooter__outer {
+  font: 13px / 12px $font-stack;
+  color: #334455;
+}
+
+.postfooter__inner {
+  text-align: center;
+  color: #9da2a8;
+  font: 10px / 12px $font-stack;
+  padding-bottom: 5px;
+}
+
+.postfooter__inner__social {
+  margin: 0 5px;
+}

@@ -1,0 +1,42 @@
+//------------------------------------
+//    $Header
+//------------------------------------
+
+.header__starter-image {
+  line-height: 5px;
+}
+
+.header__logo {
+  font: 25px / 1em $font-stack;
+  text-align: left;
+  line-height: 28px;
+
+  td {
+    padding-top: 3px;
+  }
+}
+
+.header__usp {
+  font: 11px / 1.3em $font-stack;
+  letter-spacing: 1px;
+
+  a, b {
+    color: #656565;
+    display: block;
+  }
+}
+
+.header__usp__icon {
+  font: 11px / 1.3em $font-stack;
+
+  img {
+    margin-right: 10px;
+    font: 11px / 15px $font-stack;
+  }
+}
+
+.header__usp__text {
+  color: #656565;
+  letter-spacing: 0px;
+  font: 11px / 15px $font-stack;
+}

@@ -17,7 +17,6 @@ _dist
 *.dump
 Thumbs.db
 vendor
-static
 Thumbs.db
 .DS_STORE
 tags

@@ -1,0 +1,27 @@
+.nested-table-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.nested-table {
+  tr {
+    border-bottom: 1px dashed #eeeeee;
+  }
+
+  th {
+    height: 40px;
+    font-size: 11px;
+    background-color: #fbfbfc;
+    padding: 5px;
+  }
+
+  td {
+    font-size: 11px;
+    padding: 5px;
+  }
+
+  img {
+    max-height: 70px !important;
+    width: auto !important;
+  }
+}

@@ -1,0 +1,49 @@
+//------------------------------------
+//    $Wording
+//------------------------------------
+
+.wording__title {
+  font-family: $font-stack;
+  text-align: center;
+  color: #445566;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.wording__title--h1 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.wording__title--h3 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.wording__text {
+  background-color: white;
+  color: #445566;
+  font: 14px / 22px $font-stack;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.wording__text--bordered {
+  padding: 12px;
+  border-top: 1px dashed #e2e3e5;
+  border-bottom: 1px dashed #e2e3e5;
+}
+
+.wording__text--small {
+  font: 10px / 15px $font-stack;
+}
+
+.wording__text--light-gray {
+  color: #828c96;
+}
+
+.wording__text--ghost {
+  color: #a2adba;
+}

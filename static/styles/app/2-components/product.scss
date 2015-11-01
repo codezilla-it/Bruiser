@@ -1,0 +1,48 @@
+//------------------------------------
+//    $Product
+//------------------------------------
+
+.product__title {
+  font: 14px / 18px $font-stack;
+  font-size: 14px;
+  text-align: center;
+  color: #00adef;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.product__text {
+  font: 13px / 19px $font-stack;
+  color: #334455;
+  text-align: left;
+  padding-bottom: 19px;
+}
+
+.product__pricing {
+  border-collapse: collapse;
+  color: #fc531e;
+  text-align: left;
+  font: normal 12px / 16px $font-stack;
+}
+
+.product__pricing__old {
+  text-decoration: line-through;
+  color: #222222;
+  font-weight: normal;
+}
+
+.product__btn {
+  height: 32px;
+  font: 13px / 16px $font-stack;
+
+  .btn__link {
+    font: 13px / 16px $font-stack;
+    padding: 5px 10px;
+  }
+}
+
+.product__princing,
+.product__princing__old{
+  font: 12px / 15px $font-stack;
+  color: #FD7900;
+}

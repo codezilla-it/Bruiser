@@ -1,0 +1,50 @@
+//------------------------------------
+//    $Nav
+//------------------------------------
+
+.nav__item {
+  font: 14px / 1.3em $font-stack;
+}
+
+.nav__item--accent {
+  background-color: #36ceec;
+  color: white;
+  font: 12px / 1.2em $font-stack;
+}
+
+.nav__divider {
+  line-height: 0;
+  background-color: white;
+}
+
+.nav__item__icon {
+  font: 12px / 0px $font-stack;
+
+  img {
+    margin-right: 10px;
+    padding-bottom: 3px;
+  }
+}
+
+.nav__item__text {
+  font: 14px / 21px $font-stack;
+}
+
+.nav__item--accent .nav__item__text {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font: 12px / 21px $font-stack;
+}
+
+.nav__item__text {
+  a, b {
+    color: #0f67aa;
+  }
+}
+
+.nav__item--accent .nav__item__text {
+  a, b {
+    color: white;
+  }
+}
